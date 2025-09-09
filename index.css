@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f9; /* Light gray-blue background */
+  color: #2c3e50; /* Dark navy text */
+}
+
+/* Header */
+header {
+  background-color: #1b263b; /* Dark navy */
+  color: #ffffff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #0d3b66; /* Deep blue */
+  color: #ffffff;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+}
+
+/* About Section */
+.about {
+  background-color: #ffffff;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  border-top: 2px solid #e0e0e0;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.about h2 {
+  color: #0d3b66;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Project Links */
+.links {
+  background-color: #eaf4f4; /* Soft teal tint */
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.links h2 {
+  color: #1b263b;
+  margin-bottom: 1rem;
+}
+
+.link-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.btn {
+  background-color: #0d3b66; /* Deep blue */
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #3b9ea3; /* Teal hover */
+  transform: scale(1.05);
+}
